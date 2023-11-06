@@ -1,3 +1,4 @@
+```markdown
 # Informe de Estudio sobre Clases en Java (Usando la Clase "Perro" como Ejemplo)
 
 ## Introducción
@@ -41,20 +42,22 @@ public class Perro {
     }
 }
 ```
-Características de una Clase
-Atributos: Los atributos son variables que representan características del objeto. En el caso de la clase "Perro", los atributos son nombre, raza y edad. Los atributos se definen en la clase y pueden ser privados para aplicar encapsulamiento.
 
-Constructor: Un constructor es un método especial que se utiliza para inicializar los atributos de un objeto cuando se crea una instancia de la clase. En la clase "Perro", tenemos un constructor que toma argumentos para establecer los atributos.
+## Características de una Clase
 
-Métodos: Los métodos son funciones que definen el comportamiento de un objeto. La clase "Perro" tiene un método llamado ladrar() que permite que el perro ladre.
+- **Atributos**: Los atributos son variables que representan características del objeto. En el caso de la clase "Perro", los atributos son `nombre`, `raza` y `edad`. Los atributos se definen en la clase y pueden ser privados para aplicar encapsulamiento.
 
-Encapsulamiento: Java promueve el encapsulamiento al declarar los atributos como privados y proporcionar métodos públicos (métodos Getter) para acceder a ellos. Esto protege los datos y controla el acceso a ellos.
+- **Constructor**: Un constructor es un método especial que se utiliza para inicializar los atributos de un objeto cuando se crea una instancia de la clase. En la clase "Perro", tenemos un constructor que toma argumentos para establecer los atributos.
 
-Uso de la Clase "Perro"
+- **Métodos**: Los métodos son funciones que definen el comportamiento de un objeto. La clase "Perro" tiene un método llamado `ladrar()` que permite que el perro ladre.
+
+- **Encapsulamiento**: Java promueve el encapsulamiento al declarar los atributos como privados y proporcionar métodos públicos (métodos Getter) para acceder a ellos. Esto protege los datos y controla el acceso a ellos.
+
+## Uso de la Clase "Perro"
+
 Ahora, veamos cómo se pueden crear objetos de la clase "Perro" y utilizarlos en una aplicación.
 
-java
-Copy code
+```java
 public class Main {
     public static void main(String[] args) {
         // Crear objetos de la clase "Perro"
@@ -70,5 +73,8 @@ public class Main {
         System.out.println(perro2.getNombre() + " es un " + perro2.getRaza() + " de " + perro2.getEdad() + " años.");
     }
 }
-Conclusiones
+```
+
+## Conclusiones
+
 La clase "Perro" es un ejemplo práctico de cómo se pueden utilizar clases en Java para modelar objetos del mundo real. Las clases proporcionan una estructura organizada para definir atributos y métodos que representan las características y el comportamiento de los objetos. Al aplicar conceptos como el encapsulamiento, se garantiza que los datos estén protegidos y el acceso a ellos esté controlado. En resumen, las clases son una parte fundamental de la programación en Java y son esenciales para la programación orientada a objetos.
