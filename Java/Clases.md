@@ -1,4 +1,4 @@
-```markdown
+
 # Informe de Estudio sobre Clases en Java (Usando la Clase "Perro" como Ejemplo)
 
 ## Introducción
